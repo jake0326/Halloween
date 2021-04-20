@@ -1,1 +1,121 @@
-<h1> Main?? </h1>
+
+<!DOCTYPE html>
+<!--
+Author: Jacob Raber
+Date:   2/2/2021
+-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="../css/layout.css">
+	 <link rel="stylesheet" href="../css/nav.css">
+	 <link rel="icon" 
+      type="image/png" 
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/lg/57/jack-o-lantern_1f383.png" />
+      
+  </head>
+  <body>
+    <h1>Halloween</h1>
+
+    <p></p>
+
+   <div class="topnav" id="myTopnav">
+  <a href="../index.html" class="active">Home</a>
+  <a href="../html/timer.html">Countdown</a>
+  <a href="../html/form.html">Survey</a>
+  <div class="dropdown">
+    <button class="dropbtn">Countries
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="../html/ireland.html">Ireland</a>
+      <a href="../html/latin_america.html">Latin America</a>
+      <a href="../html/north_america.html">North America</a>
+      <a href="../html/uk.html">United Kingdom</a>
+    </div>
+  </div>
+  <a href="../html/about.html">About Me</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	
+	<article> 
+	<img src="../img/imgmap.jpg" usemap="#image-map">
+
+
+<figure>
+<map name="image-map">
+    <area target="" alt="North America" title="North America" href="../html/north_america.html" coords="40,147,28,46,26,21,39,20,63,20,80,28,96,38,115,45,125,45,152,61,167,70,181,82,172,108,160,161,150,159,138,159,116,160,72,153,36,152" shape="poly">
+    <area target="" alt="Latin America" title="Latin America" href="../html/latin_america.html" coords="35,166,174,183,157,235,143,232,57,210" shape="poly">
+    <area target="" alt="Ireland" title="Ireland" href="../html/ireland.html" coords="207,89,281,205" shape="rect">
+    <area target="" alt="United Kingdom" title="United Kingdom" href="../html/uk.html" coords="276,19,338,14,387,182,309,222,311,174,278,61" shape="poly">
+</map>
+<figcaption>Click On the country you want to go to</figcaption>
+</figure>
+<style>
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    font-size:15px;
+    	  font-weight: bold;
+}
+</style>
+
+<table class="table">
+  <tbody>
+    <tr>
+      <td style="color:orange;">The Table</td>
+      <td>Traditions</td>
+      <td>Day Celebrated</td>
+      <td>Started</td>
+    </tr>
+    <tr>
+      <td><img src="../img/latin.jpg" alt="Latin America" class="small"></td>
+      <td>They visit cemeteries and decorate them.<br>They do this to honor and remember their relatives.</td>
+      <td>They celebrate it through: <br>October 31st to November 2nd</td>
+      <td>They started celebrating it: <br>Around the 3000 years ago</td>
+    </tr>
+    <tr>
+      <td><img src="../img/usa.jpg" alt="North America" class="small"></td>
+      <td>They Trick or Treating and wearing costumes.<br>They also go to costume parties and carve pumpkins.</td>
+      <td>They celebrate it on: <br>October 31st</td>
+      <td>They started celebrating it: <br>Around the 19th century</td>
+    </tr>
+    <tr>
+      <td><img src="../img/iri.jpg" alt="Ireland" class="small"></td>
+      <td>They Trick or Treat and have a Bonfire.<br>They also carve turnip and rutabaga.</td>
+      <td>They celebrate it on: <br>October 31st</td>
+     <td>They started celebrating it: <br>Around 2000 years ago</td>
+    </tr>
+    <tr>
+      <td><img src="../img/uk.jpg" alt="United Kingdom" class="small"></td>
+      <td>They tell ghost stories and having children's games.<br>They also have parades and fireworks.</td>
+      <td>They celebrate it on: <br>October 31st</td>
+      <td>They started celebrating it: <br>Around the 8th century</td>
+    </tr>
+  </tbody>
+</table>
+
+	</article>
+
+   <footer>Web Design Final <a href="mailto:raberjacob21@students.plcc.edu" target="_blank"> <em>Feedback</em></a> Copyright 2021</footer>
+  </body>
+</html>
+
+
+
