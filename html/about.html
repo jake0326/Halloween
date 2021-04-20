@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Author: Jacob Raber
+Date:   2/2/2021
+-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="layout.css">
+	 <link rel="stylesheet" href="nav.css">
+	 <link rel="icon" 
+      type="image/png" 
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/lg/57/jack-o-lantern_1f383.png" />
+  </head>
+  <body>
+    <h1>About Me</h1>
+
+    <p></p>
+
+   <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="timer.html">Countdown</a>
+  <a href="form.html">Survey</a>
+  <div class="dropdown">
+    <button class="dropbtn">Countries
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="ireland.html">Ireland</a>
+      <a href="latin_america.html">Latin America</a>
+      <a href="north_america.html">North America</a>
+      <a href="uk.html">United Kingdom</a>
+    </div>
+  </div>
+  <a href="about.html">About Me</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	
+	<article> 
+	<h2>A little bit about me and this website</h2>
+	<h3>Why was this website made?</h3>
+	<h4>This website was made becuase I had to make a functioning website for my web design final exam at The Portage Lakes Carreer Center.<br>I decided to do mine about Halloween because I had some knowledge about it.<br></h4>
+		<h3>Who made it?</h3>
+	<h4>My name is Jake and I am 17 and I am a senior at The Portage Lakes Career.</h4>
+	<h3>What's the purpose of this website?</h3>
+	<h4>The purpose of this website was to be informational spread information about the holiday.<br>This website will give you different views on how different countries celebrate their Halloween.</h4>
+	<h3>Contact Information</h3>
+	<h4>If you feel like contacting me for any reason click <a href="mailto:jacobraber21@gmail.com" target="_blank"> <em>Feedback</em></a> to contact me.<br> Also here is my instructors email <a href="mailto:mschlenk@plcc.edu" target="_blank"><em>click here</em></a></h4>
+	</article>
+   <footer>Web Design Final <a href="mailto:raberjacob21@students.plcc.edu" target="_blank"> <em>Feedback</em></a> Copyright 2021</footer>
+  </body>
+</html>
+
+
+
